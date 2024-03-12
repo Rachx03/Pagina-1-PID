@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+  }
+  
+  .card {
+    flex: 1; /* Esto hace que todas las tarjetas tengan el mismo ancho */
+    margin: 0 10px; /* Espaciado entre las tarjetas */
+  }
