@@ -102,10 +102,13 @@ position: relative;
   display: inline-block;
   margin-left: 25px;
   padding-bottom: 25px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tu preferencia */
-  transform: translateY(-5px); /* Esto eleva el elemento */
   background-color: white;
     
+}
+.card:hover{
+    transition: all 0.2s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tu preferencia */
+   transform: translateY(-5px); /* Esto eleva el elemento */
 }
 
 .card-imagen{
@@ -164,4 +167,77 @@ position: relative;
 .ver-servicio:hover{
     font-size: 16px;
     transition: all 0.2s ease;
+}
+#boton-VerMas{
+    margin-top: 60px;
+    height: 48px;
+    width: 160px;
+    border-radius:100px;
+    margin-bottom: 100px;
+    background-color: #064594;
+    border: 0px;
+    color: white;
+    
+}
+#boton-VerMas:active{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    width: 150px;
+    transition: 0.3s;
+}
+.Productos{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cardGeneral{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 140px;
+    
+   
+}
+.TP{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.cardProducto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    
+}
+.cardProducto:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.imgP{
+    margin-top: 40px;
+   
+}
+.Tcard{ 
+    margin-top: 48px;
+    margin-bottom: 72px;
+}
+#idPiezas{
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 30px;
+}
+#idContruccion{
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.imgP .imdcard2{
+    width: 250px;
+    height: auto;
 }
