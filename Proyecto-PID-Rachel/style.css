@@ -1,0 +1,206 @@
+html body {
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+.letra-menu{
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-left: 50px;
+
+}
+#imagen-inicio{
+    width: 200px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.menu{
+    display: flex;
+   flex-direction: row;
+   margin-bottom: 20px;
+}
+.menu-cabeza{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 350px;
+    margin-top: 30px;
+    
+}
+.comunicacion{
+    display: flex;
+    flex-direction: row;
+}
+#red{
+    margin-left: 500px;
+}
+.lista1C{
+    color: rgb(121, 121, 119);
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.claseli{
+    margin-left: 10px;
+    }
+.proyect{
+    position: relative;
+}
+#hr1{
+    width: 250px;
+    background-color: white;
+    height: 2px;
+}
+#enunciado{
+    position: absolute;
+    left: 250px;
+    top: -30px;
+    color: rgb(202, 198, 198);
+    font-weight: 100;
+}
+.contenedorFotos{
+    position: relative;;
+    margin-top: 50px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fotos{
+    width: 371px;
+    height: 371px;
+    margin-left: 30px;
+    margin-top: 30px;
+   
+}
+#f1{
+    background-image: url(iconos/i1.jpg);
+}
+#f1:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f2{
+    background-image: url(iconos/i2.jpg);
+}
+#f2:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f3{
+    background-image: url(iconos/i3.jpg);
+}
+#f3:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f4{
+    background-image: url(iconos/i4.jpg);
+}
+#f4:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f5{
+    background-image: url(iconos/i5.jpg);
+}
+#f5:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f6{
+    background-image: url(iconos/i6.jpg);
+}
+#f6:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f7{
+    background-image: url(iconos/i7.jpg);
+}
+#f7:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f8{
+    background-image: url(iconos/i8.jpg);
+}
+#f8:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f9{
+    background-image: url(iconos/i9.jpg);
+}
+#f9:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f10{
+    background-image: url(iconos/i10.jpg);
+}
+#f10:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f11{
+    background-image: url(iconos/i11.jpg);
+}
+#f11:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+#f12{
+    background-image: url(iconos/i12.jpg);
+    
+}
+#f12:hover{
+    background-image: url(iconos/f.jpg);
+    transition-delay: 0.5s;
+}
+.Load{
+    position: absolute;
+    background-color: black;
+    border: solid white 1px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    left: 600px;
+    bottom: -100px;
+}
+#hr2{
+    position: relative;
+    bottom: -150px;
+    height: 2px;
+    background-color: white;
+
+}
+.cosas{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 500px;
+   
+}
+#c1{
+    position: absolute;
+    bottom: -400px;
+    margin-left: 60px;
+}
+#c2{
+    position: absolute;
+    bottom: -450px;
+    margin-left: 500px;
+}
+#c3{
+    position: absolute;
+    bottom: -360px;
+    margin-left: 700px;
+}
+#c4{
+    position: absolute;
+    bottom: -470px;
+    margin-left: 1000px;
+}
